@@ -1,5 +1,5 @@
 title=What is Unit Testing?
-permalink=/blog/what-is-unit-testing
+permalink=blog/what-is-unit-testing
 tags=Testing
 categories=Unit Testing
 date=2016-05-21

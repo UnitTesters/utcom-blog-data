@@ -56,7 +56,7 @@ We can then run this as a MUnit Test in studio.
 
 For those who prefer writing Java instead of XML, MUnit framework provides fluent java api’s to be used with JUnit. You can create java class by extending `FunctionalMunitSuite` class.
 
-Below is our java test case –
+Below is our java test case  –
 
 ```
 package testmule;

@@ -1,5 +1,5 @@
 title=Mule MUnit testing with variables and properties
-permalink=blog/mule-munit-testing-variables-properties
+permalink=/blog/mule-munit-testing-variables-properties
 tags=munit, flow variables
 categories=MUnit
 date=2016-05-30

@@ -10,7 +10,7 @@ Flow Variables, Session Variables, Inbound/Outbound properties are very common i
 
 Let’s consider a simple mule flow that reads a file and then sets a flow variable and session variable.
 
-![Mule Munit Flow](blog/blog-files/Mule_Munit_Flow_1.png)
+![Mule Munit Flow](/blog/blog-files/Mule_Munit_Flow_1.png)
 
 ```
 <flow name="SampleMuleFlow">
@@ -25,7 +25,7 @@ Let’s consider a simple mule flow that reads a file and then sets a flow varia
 
 If you are using Anypoint Studio, then you can right click our flow, choose MUnit –> Create New Suite. Studio will automatically create an MUnit Test suite under /src/test/munit and adds a test case to it. It should look like –
 
-![testmule-munit-xml-testcase](blog/blog-files/testmule-munit-xml-testcase.png)
+![testmule-munit-xml-testcase](/blog/blog-files/testmule-munit-xml-testcase.png)
 
 
 ### What we will do here –

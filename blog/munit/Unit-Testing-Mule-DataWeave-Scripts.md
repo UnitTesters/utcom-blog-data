@@ -91,3 +91,4 @@ http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee
 ```
 
 
+Note: CSV input with windows might not work, need to convert the file to unix format.

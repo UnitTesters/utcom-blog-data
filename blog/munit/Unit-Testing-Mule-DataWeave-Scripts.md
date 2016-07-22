@@ -250,6 +250,7 @@ public class DataWeaveTests extends FunctionalMunitSuite {
 ```
 
 
+<<<<<<< HEAD
 
 ## Verifying CSV content output
 
@@ -366,3 +367,6 @@ Unit Testing is crucial part of any software development. Mule ESB provides nume
 
 Feel free to comment and let me know your thoughts or questions. 
 
+=======
+Note: CSV input with windows might not work, need to convert the file to unix format.
+>>>>>>> cb7806b15d33f3e822a39b8db2467cb6ee1a6106

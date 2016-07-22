@@ -4,6 +4,7 @@ categories=MUnit
 tags=DataWeave, Transform Message, Mule ESB
 status=published
 type=post
+summary=Mule DataWeave script can do complex transformations and so must be unit tested to ensure expected results. This post will help you to get started with dataweave unit testing. 
 ~~~~~~
 
 [DataWeave](https://docs.mulesoft.com/mule-user-guide/v/3.8/dataweave) is a powerful transformation language introduced with Mule Enterprise Edition 3.7. It allows you to transform data from one format to another and supports CSV, XML, JSON, Flat/Fixed Width (v3.8+) & Java. You can look at [these DataWeave Examples](https://docs.mulesoft.com/mule-user-guide/v/3.8/dataweave-examples) to see it in action.

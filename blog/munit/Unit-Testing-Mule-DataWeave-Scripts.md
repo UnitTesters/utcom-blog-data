@@ -251,7 +251,6 @@ public class DataWeaveTests extends FunctionalMunitSuite {
 ```
 
 
-<<<<<<< HEAD
 
 ## Verifying CSV content output
 
@@ -259,9 +258,9 @@ In previous example, dataweave output was Java map which is easy to verify. How 
 
 #### Verify as Strings:
 
-- [ ] After DataWeave, use `object-to-string` transformer to convert output to string.
-- [ ] Split the content with new line (you may want to replace '\r\n' with '\n' before splitting)
-- [ ] Verify values in array.
+- After DataWeave, use `object-to-string` transformer to convert output to string.
+- Split the content with new line (you may want to replace '\r\n' with '\n' before splitting)
+- Verify values in array.
 
 #### Use another dataweave to convert csv to map and then verify the map data:
 

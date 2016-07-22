@@ -362,12 +362,8 @@ payload = payload.replace("\r\n", "\n");
 
 ## Conclusion
 
-Unit Testing is crucial part of any software development. Mule ESB provides numerous components for system integrations and data transformation. In this post, we saw how we can write unit test cases for DataWeave (Transform Message) component and ensure the transformed data is as per expecations. I hope this will help you to write a bug-free (almost) scripts :).
+Unit Testing is crucial part of any software development. Mule ESB provides numerous components for system integrations and data transformation. In this post, we saw how we can write unit test cases for DataWeave (Transform Message) component and ensure the transformed data is as per expecations. I hope this will help you to write (almost) bug-free scripts :).
 
 
 
 Feel free to comment and let me know your thoughts or questions. 
-
-=======
-Note: CSV input with windows might not work, need to convert the file to unix format.
->>>>>>> cb7806b15d33f3e822a39b8db2467cb6ee1a6106

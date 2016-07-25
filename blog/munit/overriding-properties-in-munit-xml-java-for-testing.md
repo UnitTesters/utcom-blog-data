@@ -5,8 +5,9 @@ tags=Mule ESB, Properties placeholder, FunctionalMunitSuite
 status=published
 permalink=overriding-properties-in-munit-xml-java-for-testing
 type=post
-summary=It is very common for any mule application to use external properties files.  **In this post, we will see how we can override properties values for testing.** We will also cover how we can write to temporary folder during munit test, disable connector mocking and asserting file existence.
 ~~~~~~
+It is very common for any mule application to use external properties files.  **In this post, we will see how we can override properties values for testing.** We will also cover how we can write to temporary folder during munit test, disable connector mocking and asserting file existence.
+
 For demonstration purpose, we will have a flow that uses DataWeave to convert xml file into csv and writes to an output folder using `file:outbound-endpoint`. Let's read the output path from properties file with key `explore.mule.target.folder`.  As we are going to write file during testing, we will need munit not to mock the connectors.
 
 Here is our production code that declares a `context:property-placeholder` to read properties from `src/main/resources/explore-mule.properties`

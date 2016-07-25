@@ -167,6 +167,9 @@ Don't forget to override `haveToMockMuleConnectors()` and return false to allow 
 As an alternative to overriding `getStartUpProperties` method, you can also create a sample munit xml config with context:properties-placeholder and then use that inside `getConfigResources()` method.
 
 
+## Test Application Source
+Test Application source code is available on Github [here](https://github.com/UnitTesters/explore-mule).
+
 
 ## Conclusion
 

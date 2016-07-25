@@ -35,7 +35,6 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
             <dw:input-payload doc:sample="sample_data/empty.xml"/>
             <dw:set-payload resource="classpath:dwl/employees2.dwl"/>
         </dw:transform-message>
-        <logger level="INFO" message="#[message.payloadAs(java.lang.String)]" doc:name="Logger"/>
         <file:outbound-endpoint path="${explore.mule.target.folder}" outputPattern="output.csv" doc:name="File"/>
     </flow>
 

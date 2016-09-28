@@ -8,9 +8,11 @@ summary=In this post, we will see how to unit test the DataWeave script that out
 ~~~~~~
 In the [previous post](https://unittesters.com/blog/2016/07/20/Unit-Testing-Mule-DataWeave-Scripts-with-MUnit/) about unit testing DataWeave scripts with MUnit and JUnit, I showed you how to Java and CSV output of DataWeave scripts. We also looked at some error troubleshooting in dataweave scripts. 
 
+Now, lets look at DataWeave with JSON output and how we can test the content of our output with MUnit and JUnit.
+
 ## DataWeave Script
 
-Let's use the same DataWeave script from our previous post and change the output type to `application/json`.
+Let's use the same DataWeave script from our [previous post](https://unittesters.com/blog/2016/07/20/Unit-Testing-Mule-DataWeave-Scripts-with-MUnit/) and change the output type to `application/json`.
 
 ```scala
 %dw 1.0
@@ -63,7 +65,7 @@ payload.root.*employee map {
 
 ## Writing MUnit XML Test Case
 
-As we have seen in earlier post, output of DataWeave will be instance of WeaveOutputHandler class. Any transformer capable of consuming outputstreams can consume this output. As we are expecting json output, we will use `json-to-object-transformer` with a return class of `java.util.ArrayList`. Once we have the java list of json, we can validate any data elements. Here is out xml test case -
+As we saw in previous post, output of DataWeave will be instance of WeaveOutputHandler class. Any transformer capable of consuming output streams can consume this output. As we are expecting json output, we will use `json-to-object-transformer` with a return class of `java.util.ArrayList`. Once we have the java list of json, we can validate any data elements. Here is out xml test case -
 
 ```xml
     <munit:test name="dataweave-testing-suite-jsonTest" description="MUnit Test">
@@ -113,5 +115,7 @@ ObjectToString ots = new ObjectToString();
 		ots.initialise();
 		List<Map> data = (List<Map>) jto.transform(ots.transform(reply.getMessage().getPayload()), reply);
 ```
+
+And That's all about it, so simple :)
 
 Hope this helps to write safe code!

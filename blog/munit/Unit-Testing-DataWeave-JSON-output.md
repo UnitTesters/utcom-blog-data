@@ -5,7 +5,6 @@ tags=DataWeave, Transform Message, Mule ESB
 status=published
 type=post
 ~~~~~~
-
 In the [previous post](https://unittesters.com/blog/2016/07/20/Unit-Testing-Mule-DataWeave-Scripts-with-MUnit/) about unit testing DataWeave scripts with MUnit and JUnit, I showed you how to Java and CSV output of DataWeave scripts. We also looked at some error troubleshooting in dataweave scripts. In this post, we will see how to unit test the DataWeave script that outputs JSON.
 
 ## DataWeave Script

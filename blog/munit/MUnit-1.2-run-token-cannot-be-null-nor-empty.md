@@ -14,5 +14,4 @@
 [org.mule.munit.runner.remote.MunitRemoteRunner]Done
 ```
 
-![test]({{site.baseurl}}/blog/munit/images/_MMS1597.jpg)
 
